@@ -1,0 +1,203 @@
+/*
+author -: Mohd Umar (Master-Tech271)
+
+*/
+.container
+{   
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 230px;
+    padding-right: 50px;
+    box-sizing: border-box;
+
+}
+.c
+{
+    position: relative;
+    animation-name: c;
+    -moz-animation-name: c;
+    -o-animation-name: c;
+    -webkit-animation-name: c;
+    animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+}
+ @keyframes c {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 60px;
+        left: 0px;
+    }
+    75%{
+        top: 60px;
+        left: 53px;
+    }
+    100%{
+        top: 0px;
+        left: 53px;
+    }
+} 
+ .o
+{
+    position: relative;
+    animation-name: o;
+    -moz-animation-name: o;
+    -o-animation-name: o;
+    -webkit-animation-name: o;
+    animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    -o-animation-delay: 0.8s;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+ }
+ @keyframes o {
+    0%{
+        bottom: 0px;
+        left: 0px;
+    }
+    25%{
+        bottom: 60px;
+        left: 0px;
+    }
+    75%{
+        bottom: 60px;
+        left: 53px;
+    }
+    
+    100%{
+        bottom: 0px;
+        left: 53px;
+    }
+}
+
+.l
+{
+    position: relative;
+    animation-name: l;
+    -moz-animation-name: l;
+    -o-animation-name: l;
+    -webkit-animation-name: l;
+    animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 1.6s;
+    -moz-animation-delay: 1.6s;
+    -o-animation-delay: 1.6s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-timing-function: linear;
+}
+ @keyframes l {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 60px;
+        left: 0px;
+    }
+    75%{
+        top: 60px;
+        left: 53px;
+    }
+    100%{
+        top: 0px;
+        left: 53px;
+    }
+} 
+ .a
+{
+    position: relative;
+    animation-name: a;
+    -moz-animation-name: a;
+    -o-animation-name: a;
+    -webkit-animation-name: a;
+    animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 2.4s;
+    -moz-animation-delay: 2.4s;
+    -o-animation-delay: 2.4s;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-timing-function: linear;
+}
+ @keyframes a {
+    0%{
+        bottom: 0px;
+        left: 0px;
+    }
+    25%{
+        bottom: 60px;
+        left: 0px;
+    }
+    75%{
+        bottom: 60px;
+        left: 53px;
+    }
+    100%{
+        bottom: 0px;
+        left: 53px;
+    }
+}
+ .b
+{
+    position: relative;
+    animation-name: b;
+    -moz-animation-name: b;
+    -o-animation-name: b;
+    -webkit-animation-name: b;
+    animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 3.2s;
+    -moz-animation-delay: 3.2s;
+    -o-animation-delay: 3.2s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-timing-function: linear;
+}
+ @keyframes b {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 60px;
+        left: 0px;
+    }
+    75%{
+        top: 60px;
+        left: 53px;
+    }
+    100%{
+        top: 0px;
+        left: 53px;
+    }
+} 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="preloader.css">
+    <title>Preloader | COLAB</title>
+
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            function c() {
+                $('.c').animate({ top: '0px', left: '0px' }, 'fast', 'swing');
+                $('.c').animate({ top: '60px', left: '0px' }, 'fast', 'swing');
+                $('.c').animate({ top: '60px', left: '56px' }, 'fast', 'swing', o);
+                $('.c').animate({ top: '0px', left: '56px' }, 'slow', 'swing');
+            }
+            function o() {
+                $('.o').animate({ bottom: '0px', left: '0px' }, 'fast', 'swing');
+                $('.o').animate({ bottom: '60px', left: '0px' }, 'fast', 'swing');
+                $('.o').animate({ bottom: '60px', left: '56px' }, 'fast', 'swing', l);
+                $('.o').animate({ bottom: '0px', left: '56px' }, 'slow', 'swing');
+            }
+            function l() {
+                $('.l').animate({ top: '0px', left: '0px' }, 'fast', 'linear');
+                $('.l').animate({ top: '60px', left: '0px' }, 'fast', 'swing');
+                $('.l').animate({ top: '60px', left: '56px' }, 'fast', 'swing', a);
+                $('.l').animate({ top: '0px', left: '56px' }, 'slow', 'swing');
+            }
+            function a() {
+                $('.a').animate({ bottom: '0px', left: '0px' }, 'fast', 'swing');
+                $('.a').animate({ bottom: '60px', left: '0px' }, 'fast', 'swing');
+                $('.a').animate({ bottom: '60px', left: '56px' }, 'fast', 'swing', b);
+                $('.a').animate({ bottom: '0px', left: '56px' }, 'slow', 'swing');
+            }
+            function b() {
+                $('.b').animate({ top: '0px', left: '0px' }, 'fast', 'swing');
+                $('.b').animate({ top: '60px', left: '0px' }, 'fast', 'swing');
+                $('.b').animate({ top: '60px', left: '56px' }, 'fast', 'swing');
+                $('.b').animate({ top: '0px', left: '56px' }, 'slow', 'swing', backR);
+            }
+            c();
+            function backR() {
+                $('.c').animate({ top: '0px', left: '0px' }, 'fast', 'swing');
+                $('.o').animate({ bottom: '0px', left: '0px' }, 'fast', 'swing');
+                $('.l').animate({ top: '0px', left: '0px' }, 'fast', 'swing');
+                $('.a').animate({ bottom: '0px', left: '0px' }, 'fast', 'swing');
+                $('.b').animate({ top: '0px', left: '0px' }, 'fast', 'swing');
+                c();
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <span class="c" id="c">
+                <img src="image\c.png">
+            </span>
+            <span class="o">
+                <img src="image\o.png">
+            </span>
+            <span class="l">
+                <img src="image\l.png">
+            </span>
+            <span class="a">
+                <img src="image\a.png">
+            </span>
+            <span class="b">
+                <img src="image\b.png">
+            </span>
+        </div>
+    </div>
+
+</body>
+
+</html>

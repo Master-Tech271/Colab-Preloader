@@ -1,0 +1,40 @@
+/*
+author -: Mohd Umar (Master-Tech271)
+
+*/
+.container
+{   
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 230px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    transition: all 2s;
+}
+.c
+{
+    position: relative;
+}
+ .o
+{
+    position: relative;
+ }
+
+.l
+{
+    position: relative;
+}
+
+ .a
+{
+    position: relative;
+}
+ .b
+{
+    position: relative;
+}
+.main{
+    position: relative;
+}
